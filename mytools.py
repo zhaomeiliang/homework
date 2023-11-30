@@ -27,6 +27,7 @@ def 相关系数判断(系数: int):
         return '极弱相关或无相关'
 
 
+from mytools import goodmanKruska_tau_y
 def goodmanKruska_tau_y(df, x: str, y: str) -> float:
     """
     计算两个定类变量的goodmanKruska_tau_y相关系数
